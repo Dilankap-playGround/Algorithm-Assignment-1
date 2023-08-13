@@ -7,7 +7,6 @@ public class Algo_9 {
             System.out.print("Enter a Word: ");
             String inputword=scanner.next();
             if(!scanner.nextLine().trim().isEmpty()) continue;
-            int numOfCharactures=inputword.length();
             String reversword="";
             for(int i=inputword.length()-1;i>=0;i--){
                 reversword=reversword+inputword.charAt(i);
