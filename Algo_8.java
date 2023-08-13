@@ -8,6 +8,7 @@ public class Algo_8 {
 
         //.1
         System.out.println("Question 01");
+        System.out.print("(numA \u2229 numB) : ");
         for(int i =0;i<numA.length;i++){
             for(int j=0;j<numB.length;j++){
                 if ((numA[i]==numB[j])){
@@ -18,6 +19,7 @@ public class Algo_8 {
         System.out.println("\b\b ");
         //.2
         System.out.println("Question 2");
+        System.out.print("(numA \u222A numB) : ");
         for(int i=0,j=0; i<numA.length+numB.length;i++,j++){
             if(i<numA.length){
                 System.out.print(numA[i]+ " , ");
@@ -32,6 +34,7 @@ public class Algo_8 {
 
         //3.
         System.out.println("Question 3");
+        System.out.print("numA \\ numB : ");
       
         loop1:
         for(int i =0;i<numA.length;i++){
@@ -46,6 +49,7 @@ public class Algo_8 {
 
         //4.
         System.out.println("Question 4");
+        System.out.print("numB \\ numA : ");
       
         loop2:
         for(int i =0;i<numB.length;i++){
@@ -59,6 +63,7 @@ public class Algo_8 {
         System.out.println("\b\b ");
         //5.
         System.out.println("Question 5");
+        System.out.print("(numA \u25B3 numB) : ");
          loop1:
         for(int i =0;i<numA.length;i++){
             for(int j=0;j<numB.length;j++){
